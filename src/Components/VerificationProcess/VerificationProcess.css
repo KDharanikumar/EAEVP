@@ -1,0 +1,43 @@
+#process {
+  background-color: var(--primary);
+}
+
+#process .card{
+width: fit-content;
+height: fit-content;
+background-color: var(--primary);
+color: var(--white);
+border: 1px solid var(--white);
+text-align: center;
+}
+
+#process .card h5{
+  margin-bottom: 20px;
+}
+
+#process .card span{
+  margin-right: 10px;
+  font-size: 26px;
+  color: var(--white);
+}
+
+/* #process .card p{
+  text-align: justify;
+} */
+
+#process .verified-section p{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#process .verified-section button{
+background: rgb(40,142,191);
+background: linear-gradient(170deg, rgba(40,142,191,1) 0%, rgba(0,219,237,1) 100%);
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 50px;
+}

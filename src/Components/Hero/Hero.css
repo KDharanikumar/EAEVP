@@ -1,0 +1,58 @@
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../Images/Banner.jpg") top center;
+  background-size: cover;
+  position: relative;
+  /* padding-bottom: 40px; */
+  z-index: 1;
+}
+
+#hero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#hero .container {
+  position: relative;
+  padding: 75px 0px;
+  text-align: center;
+  z-index: 3;
+}
+
+#hero h1 {
+  margin: 0;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#hero h1 span {
+  color: var(--primary);
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}

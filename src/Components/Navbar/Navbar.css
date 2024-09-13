@@ -1,0 +1,104 @@
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0px;
+  transition: margin-top 0.3s ease-in-out;
+}
+
+.navbar.initial {
+  margin-top: 50px;
+}
+
+.navbar.sticky {
+  background-color: var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  padding: 5px 0;
+  background-color: var(--primary);
+  border-radius: 50px;
+}
+
+.nav-item.active .nav-link {
+  color: var(--white) !important;
+}
+
+.navbar .navbar-toggler {
+  color: var(--primary);
+}
+
+.navbar .navbar-toggler-icon {
+  background: var(--primary);
+}
+
+.navbar .navbar-brand img{
+height: 50px;
+width: 50px;
+  margin-left: 50px;
+  border-radius: 50px;
+
+}
+
+.navbar-nav li {
+  margin: 0px 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navbar .nav-item .nav-link {
+  color: var(--black);
+}
+
+.nav-item button[type="submit"] {
+  background: var(--black);
+  border: 0;
+  padding: 8px 20px;
+  color: var(--white);
+  transition: 0.4s;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-item button[type="submit"]:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+.topbar {
+  height: 50px;
+  padding: 0;
+  transition: all 0.5s;
+  color: var(--black);
+}
+
+/* .topbar span{
+  font-size: 20px;
+  margin-right: 5px;
+} */
+
+.topbar .top-btn button{
+  background: var(--black);
+  border: 0;
+  padding: 5px 10px;
+  color: var(--white);
+  transition: 0.4s;
+  border-radius: 3px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.topbar .top-btn button:hover {
+  background: var(--white);
+  color: var(--black);
+}

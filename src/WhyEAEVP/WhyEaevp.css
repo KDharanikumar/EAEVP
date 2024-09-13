@@ -1,0 +1,14 @@
+#home h3 {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background: rgb(9,204,237);
+background: linear-gradient(170deg, rgba(40,142,191,1) 0%, rgba(0,219,237,1) 100%);
+}
+
+#home .col-10{
+  padding: 20px;
+background: rgb(40,142,191);
+background: linear-gradient(170deg, rgba(40,142,191,1) 0%, rgba(0,219,237,1) 100%);
+border-radius: 50px 0px 50px 0px;
+}

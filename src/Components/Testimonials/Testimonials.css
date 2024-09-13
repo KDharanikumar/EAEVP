@@ -1,0 +1,86 @@
+/* Ensure the slider container has appropriate padding */
+.testimonial-section {
+  padding-top: 50px; /* Adjust top padding as needed */
+  padding-bottom: 50px; /* Adjust bottom padding as needed */
+}
+
+.testimonial__item{
+      border-radius: 0px 50px 0px 50px;
+}
+
+/* Container for the slider */
+.testimonial__slider {
+  position: relative;
+
+}
+
+/* Each slide within the slider */
+.slick-slide {
+  display: block;
+  justify-content: space-between; /* Center horizontally */
+  align-items: center;
+  width: 420px !important;
+  margin: 0 10px;
+}
+
+/* Styling for each testimonial item */
+.testimonial__item {
+  text-align: center;
+  position: relative;
+  padding: 100px 20px 20px 20px;
+  border: 2px solid var(--primary);
+  background: #edfeff;
+}
+
+/* Adjust the image positioning */
+.testimonial__item img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px; /* Align image properly */
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+  margin-top: 10px;
+}
+
+/* Title and text styling */
+.testimonial__item h5 {
+  font-size: 20px;
+  color: #111111;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.testimonial__item span {
+  font-size: 13px;
+  color: #4c57d6;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.testimonial__item p {
+  margin-bottom: 0;
+}
+
+.testimonial__rating i {
+  font-size: 12px;
+  color: #e9bb3f;
+  margin-right: 2px; /* Space between stars */
+}
+
+/* Slick dots for pagination */
+.slick-dots {
+  bottom: -30px; /* Adjust bottom position if needed */
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  font-size: 8px; /* Adjust size of dots */
+  color: #b7bcef; /* Inactive dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #4c57d6; /* Active dot color */
+}
