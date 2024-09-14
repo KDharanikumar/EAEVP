@@ -10,18 +10,14 @@ import "./Home.css"
 const Home = () => {
   return (
     <div className='container-fluid' id="home">
-
-      <div className='row'>
-        <Hero />
-        <div className='container'>
-          <WhyEaevp />
-        </div>
-        <VerificationProcess />
-        <Employers />
-        <Candidates />
-        <Testimonials />
-
+      <Hero />
+      <div className='container'>
+        <WhyEaevp />
       </div>
+      <VerificationProcess />
+      <Employers />
+      <Candidates />
+      <Testimonials />
     </div>
   )
 }

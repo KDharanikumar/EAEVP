@@ -23,7 +23,7 @@ const VerificationProcess = () => {
               </div>
             </div>
             <div className='main-card'>
-              <div className='d-flex justify-content-between align-items-center gap-5 mb-3'>
+              <div className='d-flex flex-wrap flex-xl-nowrap justify-content-between align-items-center gap-5 mb-3'>
                 <div className='card'>
                   <div className='card-body'>
                     <h5><span><BsCheck2All /></span>Step-1</h5>

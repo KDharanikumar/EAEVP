@@ -24,6 +24,7 @@
 
 body {
 	font-family: "Jost", sans-serif;
+    /* overflow-x: hidden; */
 }
 
 .container-fluid {
@@ -31,9 +32,9 @@ body {
 	padding: 0;
 }
 
-.container{
+/* .container{
   padding: 0;
-}
+} */
 
 a {
 	text-decoration: none;

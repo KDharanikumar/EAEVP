@@ -51,19 +51,19 @@ const settings = {
     {
       breakpoint: 992,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
       }
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
       }
     },
     {
-      breakpoint: 320,
+      breakpoint: 576, // Adjust breakpoint for smaller screens
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -75,7 +75,7 @@ const settings = {
 const Testimonials = () => {
   return (
     <section className="testimonial-section spad mb-5">
-      <div className="container">
+      <div className="container p-0">
         <div className="row mb-5">
           <div className="col-lg-12">
             <div className="section-title">
@@ -84,7 +84,6 @@ const Testimonials = () => {
               </div>
               <div className="text-center">
                 <h1 className="mb-3">Our Client Say</h1>
-                {/* <p>Et ligula sit quam, sapien lorem. Nec risus lorem vestibulum mi facilisis.</p> */}
               </div>
             </div>
           </div>

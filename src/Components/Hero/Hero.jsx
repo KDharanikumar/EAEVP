@@ -13,7 +13,7 @@ const Hero = () => {
     <section id="hero" className="d-flex align-items-center justify-content-center">
       <div className="container-fluid">
         <div className="container" data-aos="fade-up">
-          <div className="row m-0 mt-5 justify-content-center align-items-center text-center" data-aos="fade-up" data-aos-delay="150">
+          <div className="row justify-content-center align-items-center text-center" data-aos="fade-up" data-aos-delay="150">
             <div className="col-lg-6 mb-4">
               {/* <p className="text-white">Lorem ipsum dolor sit amet consectetur</p> */}
               <h1 className="mb-4">
