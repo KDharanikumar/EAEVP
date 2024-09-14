@@ -83,7 +83,7 @@ const Testimonials = () => {
                 <div className="pill-btn mb-3">Testimonials</div>
               </div>
               <div className="text-center">
-                <h1 className="mb-3">Our Client Say</h1>
+                <h1 className='mb-0'>Our Client Say</h1>
               </div>
             </div>
           </div>
