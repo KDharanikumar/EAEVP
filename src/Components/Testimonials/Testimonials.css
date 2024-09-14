@@ -8,6 +8,10 @@
       border-radius: 0px 50px 0px 50px;
 }
 
+.slick-arrow .slick-next{
+display: none;
+}
+
 /* Container for the slider */
 .testimonial__slider {
   position: relative;
@@ -19,8 +23,8 @@
   display: block;
   justify-content: space-between;
   align-items: center;
-  width: 420px !important;
-  margin: 0 10px;
+  width: 400px !important;
+  margin: 0 16px;
 }
 
 /* Styling for each testimonial item */
@@ -74,6 +78,11 @@
 .slick-dots {
   bottom: -30px;
   text-align: center;
+  width: -webkit-fill-available;
+}
+
+.slick-next, .slick-prev{
+  display: none !important;
 }
 
 .slick-dots li button:before {
@@ -90,6 +99,7 @@
   display: block;
   justify-content: space-between;
   align-items: center;
-  width: 392px !important;
+  width: 352px !important;
+  margin: 0 18px;
 }
 }

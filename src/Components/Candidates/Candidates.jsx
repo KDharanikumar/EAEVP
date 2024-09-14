@@ -22,7 +22,7 @@ const Candidates = () => {
               <p><span><SiTicktick /></span> Getting Verified with us is like having complete visibility into a candidate's background, as if you've personally tracked their education and career milestones. Every detail is throughly confirmed, giving you the confidence to make informed hiring decisions.</p>
             </div>
             <div>
-              <button className='consulting-btn'>Click To Register</button>
+              <button className='consulting-btn mb-3'>Click To Register</button>
             </div>
           </div>
 
