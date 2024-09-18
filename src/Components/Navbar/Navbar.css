@@ -6,24 +6,16 @@
   z-index: 999;
   transition: 0.3s ease-in;
   overflow: hidden;
-}
-
-.topbar .container{
-  background-color: var(--white);
-  max-width: 1240px !important;
+    background-color: var(--primary);
 }
 
 .topbar .title h4 {
   margin: 0;
   font-size: 26px;
   text-align: center;
-  color: var(--primary);
   font-family: "Lilita One", sans-serif;
 }
 
-/* .topbar .top-btn {
-  gap: 10px;
-} */
 
 .topbar .top-btn button {
   background: var(--black);
@@ -46,17 +38,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1240px;
   margin: auto;
-  border-radius: 50px;
-  background-color: var(--primary);
   padding: 2px 30px;
   z-index: 999;
 }
 
 .header .logo img {
-  height: 50px;
-  width: 50px;
+  height: 120px;
+  width: 120px;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -76,7 +65,7 @@
 }
 
 .header .nav-item {
-  padding: 1rem;
+  padding: 1rem 2rem;
   font-weight: 700;
 }
 
