@@ -5,7 +5,6 @@
 .pacifico-regular {
   font-family: "Jost", sans-serif;
 }
-
 :root{
   --primary: #288EBF;
   --secondary:#dff5f7;
@@ -13,7 +12,6 @@
   --black: #000;
 
 }
-
 * {
 	box-sizing: border-box;
 	text-decoration: none;
